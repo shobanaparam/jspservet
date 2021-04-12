@@ -1,0 +1,149 @@
+.container {
+    font-family: Arial;
+    padding:0px;
+    height:100px;
+    width: 1350px;
+    background-color:  #b7b7b7;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.search-container{
+    padding-top: 65px;
+}
+
+.container a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    
+}
+.btn1{
+ padding-left: 1140px;    
+ background-color: #ddd;
+ color: white;
+ width: 1350px;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+      
+     
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color:inherit;
+
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color:#ABEBC6  ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#7DCEA0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.centered {
+    position: absolute;
+    top: 559px;
+    left:1000px;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:30px;
+}
+
+ .button  {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #00BF9A;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+ width: 500px;
+
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+   margin-left:5%;
+  margin-bottom:15%;
+ margin-top:5%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ 
+.footer {
+           position:absolute;
+           background-color:black;
+           width:100%;
+           
+        }   
+        .centered{
+            color: yellow;
+             text-shadow: 3px 3px black;
+            
+        }
+        .room{
+            height: 20px;
+            width: 130px;
+               
+        }
+        .submit,.update,.delete{
+            width: 100px;
+   
+        }
+        .submit:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .update:hover{
+            background-color:  yellow;
+            color: black;
+        }
+        .delete:hover{
+            background-color:  red;
+            color: black;
+        }
+        
